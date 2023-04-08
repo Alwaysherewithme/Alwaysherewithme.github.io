@@ -243,7 +243,7 @@ img {
   display: inline-block;
 }
 html.w-mod-touch * {
-  background-attachment: scroll !important;
+  /* background-attachment: scroll !important; */
 }
 .w-block {
   display: block;
@@ -251,6 +251,30 @@ html.w-mod-touch * {
 .w-inline-block {
   max-width: 100%;
   display: inline-block;
+}
+.a_wechat {
+  position: relative;
+}
+.a_wechat span {
+  display: none;
+  pointer-events: none;
+}
+.a_wechat:hover span {
+  display: block;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #000;
+  border: 1px solid #fff;
+  background-color: #fff;
+  pointer-events: none;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.a_wechat:not(:hover) span {
+  display: none;
 }
 .w-clearfix:before,
 .w-clearfix:after {
