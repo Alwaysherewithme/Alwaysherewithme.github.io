@@ -262,8 +262,8 @@ html.w-mod-touch * {
 .a_wechat:hover span {
   display: block;
   position: absolute;
-  top: -24px;
-  left: 0;
+  top: -28px;
+  left: -70px;
   padding-left: 4px;
   padding-right: 4px;
   color: #000;
@@ -2053,6 +2053,7 @@ textarea.w-select {
 }
 
 .hero-image-box {
+  overflow: hidden;
   height: 80vh;
   max-height: 864px;
   /* background-image: url("https://uploads-ssl.webflow.com/5eb98b2079b4fc247b5a89f3/5eb99a5d7fd124026dae7f13_Hero%20Image.jpg"); */
@@ -2071,6 +2072,7 @@ textarea.w-select {
 
 .hero-text-block {
   margin-left: -64px;
+  overflow: hidden;
 }
 
 .paragraph_18px {
@@ -2209,6 +2211,7 @@ textarea.w-select {
 
 .experience-block {
   padding-right: 48px;
+  overflow: hidden;
 }
 
 .paragraph_16px {
@@ -2973,8 +2976,8 @@ textarea.w-select {
     grid-template-columns: 1fr;
   }
   .nav-bar {
-    padding-right: 0px;
-    padding-left: 20px;
+    padding-right: 6px;
+    padding-left: 6px;
   }
   .nav-link {
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.12);
