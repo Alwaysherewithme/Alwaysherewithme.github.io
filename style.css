@@ -43,6 +43,7 @@ template {
 }
 a {
   background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 a:active,
 a:hover {
@@ -2138,7 +2139,7 @@ textarea.w-select {
 .heading_55px {
   display: inline-block;
   width: 100%;
-  max-width: 780px;
+  /* max-width: 780px; */
   margin-top: 0px;
   margin-bottom: 0px;
   color: #fff;
@@ -2396,7 +2397,7 @@ textarea.w-select {
 }
 
 .mid_image {
-  background-image: url("./img_technology_power.png");
+  background-image: url("./assets/img_technology_power.png");
   background-position: 50% 50%;
   background-size: cover;
 }
